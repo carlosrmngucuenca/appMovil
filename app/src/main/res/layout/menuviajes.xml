@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:weightSum="1"
+    android:padding="@dimen/padinpantalla"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/imagenu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+
+            android:id="@+id/Pruta"
+            style="@style/boton"
+            android:onClick="ejecutarListarViajes"
+
+            android:text="@string/Postula_ruta" />
+
+        <Button
+
+            android:id="@+id/Buscar"
+            style="@style/boton"
+            android:text="@string/buscar"
+
+            />
+
+        <Button
+
+            android:id="@+id/btnViajes"
+            style="@style/boton"
+            android:onClick="ejecutarTrazarRuta"
+
+            android:text="@string/Viajes" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

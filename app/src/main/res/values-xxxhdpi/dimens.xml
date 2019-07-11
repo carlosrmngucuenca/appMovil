@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <dimen name="padinpantalla">12dp</dimen>
+
+
+        <dimen name="texto_boton">18sp</dimen>
+        <dimen name="anchoboton">50dp</dimen>
+        <dimen name="altomiboton">40dp</dimen>
+        <dimen name="marjenboton">6dp</dimen>
+        <dimen name="paddingboton">6dp</dimen>
+        <dimen name="texto_titulo">20sp</dimen>
+        <dimen name="radioboton">25dp</dimen>
+        <dimen name="ancho_cajatexto">50dp</dimen>
+        <dimen name="alto_cajatexto">50dp</dimen>
+        <dimen name="titulo_CajasDeTexo">18sp</dimen>
+        <dimen name="Altotitulo_CajasDeTexo">25sp</dimen>
+        <dimen name="Anchotitulo_CajasDeTexo">150sp</dimen>
+        <dimen name="PaddingTitulosCajas">6dp</dimen>
+        <dimen name="PaddingCajasDeTexto">6dp</dimen>
+
+
+
+
+
+
+</resources>

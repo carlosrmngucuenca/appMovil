@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AutoV2</string>
+    <string name="Postula_ruta">Postular</string>
+    <string name="Viajes">viajes</string>
+    <string name="buscar">Buscar</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="Inicio_Secion">Iniciar Secion</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="CorreoElectronico">Correo</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="NombreDeUsuario">NonmbreDeUsuario</string>
+    <string name="Gauradar">Guardar</string>
+    <string name="InSecion">Ingresar</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

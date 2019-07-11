@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViajero"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/imagenviajero" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/Nombre_Viajero_Fila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Nombre: "
+             />
+
+
+
+        <TextView
+            android:id="@+id/Nombre_Viajero_Costo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Correo: "
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

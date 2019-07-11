@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="@dimen/padinpantalla"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        style="@style/CajasdeTexto"
+        android:id="@+id/txtNombre"
+        android:hint="@string/Nombre"
+        android:inputType="text"
+        />
+
+    <EditText
+        style="@style/CajasdeTexto"
+        android:id="@+id/txtApellido"
+        android:hint="@string/Apellidos"
+        android:inputType="text"
+        />
+
+    <EditText
+        style="@style/CajasdeTexto"
+        android:id="@+id/txtCorreo"
+        android:hint="@string/CorreoElectronico"
+        />
+
+
+    <EditText
+        style="@style/CajasdeTexto"
+        android:id="@+id/txtContrasena"
+        android:hint="@string/Contraseña"
+        />
+
+    <EditText
+        style="@style/CajasdeTexto"
+        android:id="@+id/txtUsuario"
+        android:hint="@string/NombreDeUsuario"
+        />
+
+
+
+    <Button
+        style="@style/boton"
+        android:id="@+id/btnGuardar"
+        android:text="@string/Gauradar"
+        />
+
+
+
+</LinearLayout>
